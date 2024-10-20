@@ -1,23 +1,27 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
+				"payable": true,
 				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
+				"constant": false,
 				"inputs": [],
 				"name": "hasDeceased",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
+				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -32,30 +36,24 @@
 				],
 				"name": "setInheritance",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/grandpaWill-solution.sol": "grandpaWill"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "istanbul",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -64,10 +62,10 @@
 	},
 	"sources": {
 		"contracts/grandpaWill-solution.sol": {
-			"keccak256": "0x35083d2c9b1a8c42dca3c3caa80cc7b7561901a60bb30111432832443c16ded2",
+			"keccak256": "0x3e591f390e4e931db0b4c471d5bb316a87e0306922e7995244057efc6c65d1de",
 			"urls": [
-				"bzz-raw://7b206fa3a1012fadbe9129055ca0e16d19d984063714907af07e94255944e5ce",
-				"dweb:/ipfs/Qmbbn199aRZWyyg3y5Yuvwibv5hjQ3HEEooZ8984xJDATT"
+				"bzz-raw://fea0c5376b23f12a754ff126ac37eb10f85ae1d4ba77424149f53205c942debd",
+				"dweb:/ipfs/QmZrMPUZmVaMeX2bm12piy3Myy5JiaR4rBTMe38uWRNjha"
 			]
 		}
 	},

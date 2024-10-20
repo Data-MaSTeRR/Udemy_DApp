@@ -30,7 +30,7 @@ contract AddressWallets {
     }
 
 
-function checkInvestors() public view returns (uint) {
-    return investorWallets.length;
-}    
+    function checkInvestors() public view returns (uint) {
+        return investorWallets.length;
+    }    
 }

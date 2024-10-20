@@ -1,5 +1,5 @@
 // ^는 이상 버전 아무거나 포함
-pragma solidity ^0.8.4;
+pragma solidity ^0.5.7;
 
 // 할아버지의 유언장에 따른 스마트계약 작성 -> 돌아가시면 유산 상속 바로
 contract grandpaWill {
@@ -10,7 +10,7 @@ contract grandpaWill {
 
 
     // constructor(생성자) -> 변수가 스마트계약에서 무엇인지에 대해 정의, 접근을 허용하게 함 (기본적으로 생성자는 외부에서 호출될 수 있음), 초기 속성 설정
-    constructor() payable {
+    constructor() payable public {
         owner = msg.sender; // msg sender represents address being called
         fortune = msg.value; //msg value tells us how much ether is being sent
         deceased = false;  
@@ -47,7 +47,7 @@ contract grandpaWill {
     // private으로 외부에서 함수 사용 못하게, mustBeDeceased로 죽어야지만 함수 실행하게 제어
     function payOut() private mustBeDeceased {
         for(uint i=0; i<familyWallets.length; i++) {
-            familyWallets[i].transfer(inheritance[familyWallets[i]]);
+            familyWallets[i].transfer((inheritance[familyWallets[i]]));
             // transferring funds from contract address to "reciever" address -> .tranfer는 송금하기 메소드 , 여기서는 familyWallets[i]가 수신자
         }
     }
