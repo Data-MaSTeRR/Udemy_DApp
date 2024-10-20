@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "checkInvestors",
 				"outputs": [
 					{
@@ -16,6 +21,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makePayment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -50,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/pay-investors-solution.sol": "AddressWallets"
+			"contracts/pay-investors-looping-solution.sol": "AddressWallets"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -64,11 +76,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/pay-investors-solution.sol": {
-			"keccak256": "0x50302ddd75035005e783b500b3561ff7f1db823925d3e48dfbe9a56ac2d768b4",
+		"contracts/pay-investors-looping-solution.sol": {
+			"keccak256": "0xa687be2578c311b8893338654d2527ceefb69225d77682bf3831e45d8e06782d",
 			"urls": [
-				"bzz-raw://a8c7c836ef9347292b793a0490c56356611007b5439d831dc261ef7daec98627",
-				"dweb:/ipfs/QmVjoLjus9oYc1jBRbmHvatDUPurHK3MRf7okGPzasvDz8"
+				"bzz-raw://002df3ede95164f6812773d2965196d0360cd599913309911d3cf6cbc77ab3b3",
+				"dweb:/ipfs/QmaJiDf2GzBwXBFxPDPYCuo7J4TxHxKBgJTHsFj2K6viCW"
 			]
 		}
 	},

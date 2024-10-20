@@ -49,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/will-solution.sol": "grandpaWill"
+			"contracts/grandpaWill-solution.sol": "grandpaWill"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -63,7 +63,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/will-solution.sol": {
+		"contracts/grandpaWill-solution.sol": {
 			"keccak256": "0x35083d2c9b1a8c42dca3c3caa80cc7b7561901a60bb30111432832443c16ded2",
 			"urls": [
 				"bzz-raw://7b206fa3a1012fadbe9129055ca0e16d19d984063714907af07e94255944e5ce",
