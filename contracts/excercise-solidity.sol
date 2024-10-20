@@ -24,7 +24,6 @@ contract simpleStorage {
     function get() public view returns (uint) {
         return storeData;
     }
-
  
 }
 

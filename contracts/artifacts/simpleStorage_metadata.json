@@ -7,30 +7,26 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "hasDeceased",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "wallet",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "setInheritance",
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -49,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/will-solution.sol": "Will"
+			"contracts/excercise-solidity.sol": "simpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -63,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/will-solution.sol": {
-			"keccak256": "0x84c43e1eba00fb164b438058b991ca583b84a5dbe1d52361f43c7418f348e524",
+		"contracts/excercise-solidity.sol": {
+			"keccak256": "0xa519916a4555ed11c65ad66050fa73877b2e6f26a33ae886cc09766937199add",
 			"urls": [
-				"bzz-raw://6ffb8bced21f5085f6575c7533491ffd05860adb48ac13785243f5fceddc289e",
-				"dweb:/ipfs/QmTDM3z3caiUGKq47KrL2zdoNNhzzkjmtkMuP426ipUmoi"
+				"bzz-raw://bc056fd551d3b68aacc02b6dbfaeca1b90023f70cdf08a5e7d3ce33c163d50ae",
+				"dweb:/ipfs/QmahhRWka5xa88Yj6WbXVvmmo3jDw3nY5NJF9bKvF1de12"
 			]
 		}
 	},

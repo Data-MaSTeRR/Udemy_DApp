@@ -7,14 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "hasDeceased",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "checkInvestors",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -30,7 +31,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "setInheritance",
+				"name": "payInvestors",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -49,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/will-solution.sol": "Will"
+			"contracts/pay-investors-solution.sol": "AddressWallets"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -63,11 +64,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/will-solution.sol": {
-			"keccak256": "0x84c43e1eba00fb164b438058b991ca583b84a5dbe1d52361f43c7418f348e524",
+		"contracts/pay-investors-solution.sol": {
+			"keccak256": "0x50302ddd75035005e783b500b3561ff7f1db823925d3e48dfbe9a56ac2d768b4",
 			"urls": [
-				"bzz-raw://6ffb8bced21f5085f6575c7533491ffd05860adb48ac13785243f5fceddc289e",
-				"dweb:/ipfs/QmTDM3z3caiUGKq47KrL2zdoNNhzzkjmtkMuP426ipUmoi"
+				"bzz-raw://a8c7c836ef9347292b793a0490c56356611007b5439d831dc261ef7daec98627",
+				"dweb:/ipfs/QmVjoLjus9oYc1jBRbmHvatDUPurHK3MRf7okGPzasvDz8"
 			]
 		}
 	},
